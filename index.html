@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Roogle Prototype 2</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="roogle-container">
+    <h1>Roogle Prototype 2</h1>
+    <form id="proxy-form">
+      <input type="text" id="url-input" placeholder="Enter URL (e.g., google.com)" autocomplete="off">
+      <button type="submit">Go</button>
+    </form>
+    <div id="iframe-wrapper">
+      <iframe id="proxy-frame" sandbox="allow-scripts allow-same-origin allow-forms allow-popups" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
